@@ -4,3 +4,6 @@ can also be easily aggregated by station to show station totals. Only preliminar
 process. Plotting from a pivot table has also proved to be different than a regular data set, but the table inside the repo does show traffic totals by turnstile,
 by month. While we hoped to be further along at this point, the data is finally in a good placce to compare. The accompanying chartis included in the repository as
 eda_table.png.
+
+
+This MVP is preliminary and being submitted early based on time constraints. It will be updated later today as better graphical infromation is created.
