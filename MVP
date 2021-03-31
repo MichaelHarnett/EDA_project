@@ -1,0 +1,6 @@
+Combing through the MTA data has proved more difficult than initially anticipated. It has taken a while to aggregate totals based on both turnstile and stat
+for the month. After many failed attempts we have successfully coallated all totals into a pivot table, that show each tunstile's monthly totals. The pivot table
+can also be easily aggregated by station to show station totals. Only preliminary analysis has been acheived at this point due to errors in aggregating early in the
+process. Plotting from a pivot table has also proved to be different than a regular data set, but the table inside the repo does show traffic totals by turnstile,
+by month. While we hoped to be further along at this point, the data is finally in a good placce to compare. The accompanying chartis included in the repository as
+eda_table.png.
