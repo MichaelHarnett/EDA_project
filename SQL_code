@@ -1,1 +1,27 @@
+# Created a table to store the data imported from python
 
+CREATE TABLE mta_data (
+	CA TEXT,
+	UNIT TEXT,
+	SCP TEXT,
+	STATION TEXT,
+	LINENAME TEXT,
+	DIVISION TEXT,
+	DATE DATE,
+	TIME TIME,
+	DESC TEXT,
+	ENTRIES INTEGER,
+	EXITS INTEGER,
+	PRIMARY KEY (CA,UNIT,SCP,STATION,LINENAME,DIVISION,DATE,TIME,DESC,ENTRIES,EXITS)
+	);
+  
+  
+  #Combined imported files in folder into one csv
+  
+  head -1 turnstile_210313.txt > all_combined.csv
+ tail -n +2 -q *.txt >> all_combined.csv
+ 
+ # created a database from comined files
+ 
+ .mode csv
+ .import all_combined.csv mta_data 
